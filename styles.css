@@ -1,0 +1,86 @@
+body {
+    margin: 0px;
+    background-color: rgb(188, 188, 243);
+    font-family: "Nerko one", cursive;
+}
+img{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+}
+button {
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 25px;
+}
+
+.page-nave {
+    background-color: rgb(74, 194, 237);
+    border: 1px solid black;
+    position: relative;
+}
+
+.page-nave h1 {
+    margin: 20px;
+}
+
+.button-checkout {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(104, 25, 208); /* Blue */
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
+.button-checkout:hover {
+    background-color: rgb(80, 43, 245); /* Blue */
+    color: white;
+}
+
+.page-content {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    margin: 10% 5%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid rgb(236, 75, 75);
+}
+
+.product-container {
+    margin: 15px;
+    padding: 2px 16px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    background-color: white;
+}
+
+.product-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.product-container img {
+width: 200px;
+}
+
+.product-container h2 {
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.button-add {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(44, 236, 99); /* Green */
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+
+.button-add:hover {
+    background-color: rgb(115, 233, 162); /* Green */
+    color: white;
+}
